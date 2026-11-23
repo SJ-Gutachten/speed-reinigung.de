@@ -18,7 +18,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 <div class="w-layout-grid grid unter">
 <div id="Youtube" style="padding-top:56.17021276595745%" class="video w-video w-embed">
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FlqxQHXDaUCY%3Fstart%3D20%26feature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DlqxQHXDaUCY&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FlqxQHXDaUCY%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="Speed Gebäudereinigung - Gebäudeinnenreinigung, Unterhaltsreinigung in München"></iframe>
+<iframe class="embedly-embed" src="https://www.youtube-nocookie.com/embed/lqxQHXDaUCY?start=20" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no" title="Speed Gebäudereinigung - Gebäudeinnenreinigung, Unterhaltsreinigung in München"></iframe>
 </div>
 <div id="w-node-b9c8a1ff-96ef-e7bb-d2ca-7b9b5a9a397c-4a1e8e94" data-w-id="b9c8a1ff-96ef-e7bb-d2ca-7b9b5a9a397c" style="opacity:0" class="content1 mittig">
 <div class="benefits-div-block"><img src="/assets/img/icon-haken.svg" loading="lazy" width="90" alt="Häkchen-Icon" class="image-3"/>

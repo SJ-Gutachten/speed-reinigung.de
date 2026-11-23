@@ -4304,22 +4304,3 @@ h1:where(.wie-h3) { margin-top: 20px; margin-bottom: 10px; font-size: 24px; font
 /* Logo-Link im Seitenkopf: verändert weder Anordnung noch Farbe. */
 .logo-link { display: contents; color: inherit; }
 
-/* ===== Einwilligungs-Hinweis (assets/js/einwilligung.js) ===== */
-.einwilligung { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 2147483000; max-width: 720px; margin: 0 auto;
-  display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between;
-  padding: 20px; border-radius: 8px; background: #fff; color: #222; box-shadow: 0 6px 30px rgba(0, 0, 0, .35);
-  font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: left; }
-.einwilligung__text { flex: 1 1 320px; }
-.einwilligung__text strong { display: block; margin-bottom: 6px; font-size: 16px; }
-.einwilligung__text p { margin: 0; }
-.einwilligung__text a { color: #222; text-decoration: underline; }
-.einwilligung__knoepfe { display: flex; gap: 10px; flex: 0 0 auto; }
-/* Beide Knöpfe bewusst gleich gestaltet. */
-.einwilligung__knopf { min-width: 120px; padding: 12px 18px; border: 2px solid #222; border-radius: 6px; background: #222; color: #fff;
-  font: inherit; font-weight: bold; cursor: pointer; }
-.einwilligung__knopf:hover, .einwilligung__knopf:focus { background: #fff; color: #222; outline: none; }
-@media screen and (max-width: 479px) {
-  .einwilligung { left: 8px; right: 8px; bottom: 8px; padding: 16px; }
-  .einwilligung__knoepfe { flex: 1 1 100%; }
-  .einwilligung__knopf { flex: 1 1 0; min-width: 0; }
-}

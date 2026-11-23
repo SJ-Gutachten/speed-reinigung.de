@@ -44,8 +44,5 @@ $basis = 'https://speed-reinigung.de';
   }
 </style>
 
-<!-- Statistik und Marketing: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
-<script>window.EINWILLIGUNG = { gtm: 'GTM-N2C3F57M', dienste: 'den Google Tag Manager und darüber eingebundene Dienste wie das Facebook-Pixel (Meta)' };</script>
-<script src="<?= e(asset('/assets/js/einwilligung.js')) ?>" defer></script>
 <?= $page['head_extra'] ?? '' ?>
 </head>

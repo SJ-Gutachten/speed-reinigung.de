@@ -56,16 +56,11 @@ Absenden, höchstens 5 Anfragen je Besucher und Stunde, höchstens 3 Links in de
 Abweichende Einstellungen für einen einzelnen Server gehören in eine Datei `config.local.php` im
 Hauptverzeichnis. Sie wird nicht ins Repository übernommen.
 
-## Einwilligung für Tracking
+## Tracking
 
-Statistik- und Marketing-Dienste laden erst, nachdem Besucher im Hinweis am unteren Seitenrand auf „Zustimmen“ geklickt haben.
-Ohne Zustimmung wird nichts an Google oder Meta übertragen und kein Cookie gesetzt.
-
-- Logik und Texte: `assets/js/einwilligung.js`, Aussehen am Ende der CSS-Datei (`.einwilligung`).
-- Welche Dienste geladen werden, steht in `includes/head.php` (`window.EINWILLIGUNG`). Hier: Google Tag Manager `GTM-N2C3F57M`, der unter anderem ein Facebook-Pixel nachlädt.
-- Die Entscheidung gilt 12 Monate und lässt sich über „Cookie-Einstellungen“ im Footer ändern; ein Widerruf löscht die Tracking-Cookies.
-- Weitere Dienste, die Cookies setzen oder Daten an Dritte senden, gehören ebenfalls hinter diese Einwilligung und in den Hinweistext.
-- Nicht davon erfasst: eingebettete Videos und das Elfsight-Widget; sie laden weiterhin sofort.
+Die Website setzt kein Tracking ein. Der Google Tag Manager wurde entfernt; er hatte ausschließlich ein Facebook-Pixel geladen.
+Soll später wieder ein Dienst eingebunden werden, der Cookies setzt oder Daten an Dritte sendet, braucht er eine Einwilligung der Besucher
+(Vorlage: `assets/js/einwilligung.js` im Repository von sj-gutachten.de) und einen Abschnitt in der Datenschutzerklärung.
 
 ## Lokal testen
 
@@ -102,4 +97,4 @@ Testanfragen landen dann in `storage/testmail.txt`.
 
 Überschriften, deren Ebene geändert wurde, tragen die Klasse `wie-h1`, `wie-h2` oder `wie-h3`, damit sie aussehen wie zuvor.
 
-Unverändert sind Impressum und Datenschutzerklärung. Das wirkungslose consentmanager-Skript wurde durch den eigenen Einwilligungs-Hinweis ersetzt (siehe „Einwilligung für Tracking“).
+Das Impressum ist unverändert. Die Datenschutzerklärung wurde an den Umzug angepasst (Hoster genannt, Abschnitte zu consentmanager und Adobe Fonts entfernt, Elfsight ergänzt); das Video ist jetzt direkt über youtube-nocookie.com eingebunden.
