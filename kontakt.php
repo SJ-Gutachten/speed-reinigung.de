@@ -11,17 +11,17 @@ $page = [
   "@context": "https://schema.org",
   "@type": "CleaningService",
   "name": "Speed-Reinigung",
-  "image": "https://www.speed-reinigung.de/logo.png",
+  "image": "https://speed-reinigung.de/assets/img/speed-logo-256x256.png",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Deine Straße 12",
+    "streetAddress": "Zietenstraße 8",
     "addressLocality": "München",
-    "postalCode": "80331",
+    "postalCode": "80807",
     "addressCountry": "DE"
   },
-  "telephone": "+49 89 1234567",
+  "telephone": "+491785755641",
   "email": "info@speed-reinigung.de",
-  "url": "https://www.speed-reinigung.de/kontakt",
+  "url": "https://speed-reinigung.de/",
   "areaServed": "München"
 }
 </script>
@@ -34,10 +34,10 @@ require __DIR__ . '/includes/header.php';
 ?>
 <div class="section4">
 <section class="section-kontakt">
-<h2>Kontaktieren Sie Speed-Reinigung – Ihre Reinigungsfirma in München</h2>
+<h1 class="wie-h2">Kontaktieren Sie Speed-Reinigung – Ihre Reinigungsfirma in München</h1>
 </section>
 <div class="w-layout-grid grid-4">
-<div class="content_block oben"><a href="#https://maps.app.goo.gl/WwFBiemoFX28hjAN7" target="_blank" class="w-inline-block"><img src="/assets/img/karte-standort.png" loading="lazy" width="598" height="Auto" alt="" srcset="/assets/img/karte-standort-p-500.png 500w, /assets/img/karte-standort-p-800.png 800w, /assets/img/karte-standort-p-1080.png 1080w, /assets/img/karte-standort.png 1350w" sizes="(max-width: 479px) 100vw, 598px"/></a>
+<div class="content_block oben"><a href="https://maps.app.goo.gl/o6hiAG5ged6Q4JpJ6" target="_blank" class="w-inline-block"><img src="/assets/img/karte-standort.webp" loading="lazy" width="598" height="Auto" alt="Karte mit dem Standort Zietenstraße 8, 80807 München" srcset="/assets/img/karte-standort-p-500.webp 500w, /assets/img/karte-standort-p-800.webp 800w, /assets/img/karte-standort-p-1080.webp 1080w, /assets/img/karte-standort.webp 1350w" sizes="(max-width: 479px) 100vw, 598px"/></a>
 </div>
 <div class="form-wrap">
 <div class="form1 w-form">

@@ -14,54 +14,18 @@ require __DIR__ . '/includes/header.php';
 <h1 class="heading-4">Unsere Baustellen </h1>
 </div>
 <div data-w-id="e649f6c7-368b-4893-997c-962208b78e6f" class="w-layout-grid grid_leistungen_1"><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-01.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-01-p-500.jpg 500w, /assets/img/galerie-01-p-800.jpg 800w, /assets/img/galerie-01.jpg 1080w" alt="Sauber" class="image-4"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-02.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-02-p-500.jpg 500w, /assets/img/galerie-02-p-800.jpg 800w, /assets/img/galerie-02.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-03.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-03-p-500.jpg 500w, /assets/img/galerie-03-p-800.jpg 800w, /assets/img/galerie-03.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-05.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-05-p-500.jpg 500w, /assets/img/galerie-05-p-800.jpg 800w, /assets/img/galerie-05.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-04.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-04-p-500.jpg 500w, /assets/img/galerie-04-p-800.jpg 800w, /assets/img/galerie-04.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-06.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-06-p-500.jpg 500w, /assets/img/galerie-06-p-800.jpg 800w, /assets/img/galerie-06.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-09.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-09-p-500.jpg 500w, /assets/img/galerie-09-p-800.jpg 800w, /assets/img/galerie-09.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-11.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-11-p-500.jpg 500w, /assets/img/galerie-11-p-800.jpg 800w, /assets/img/galerie-11.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-12.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-12-p-500.jpg 500w, /assets/img/galerie-12-p-800.jpg 800w, /assets/img/galerie-12.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-08.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-08-p-500.jpg 500w, /assets/img/galerie-08-p-800.jpg 800w, /assets/img/galerie-08.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-13.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-13-p-500.jpg 500w, /assets/img/galerie-13-p-800.jpg 800w, /assets/img/galerie-13.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-webseite.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-webseite-p-500.jpg 500w, /assets/img/galerie-webseite-p-800.jpg 800w, /assets/img/galerie-webseite.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
-<script type="application/json" class="w-json">{
-  "items": [],
-  "group": "Galerie"
-}</script></a>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-1","origFileName":"galerie-01.jpg","fileName":"galerie-01.jpg","fileSize":168779,"height":1080,"width":1080,"url":"/assets/img/galerie-01.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-02.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-02-p-500.jpg 500w, /assets/img/galerie-02-p-800.jpg 800w, /assets/img/galerie-02.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-2","origFileName":"galerie-02.jpg","fileName":"galerie-02.jpg","fileSize":245289,"height":1080,"width":1080,"url":"/assets/img/galerie-02.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-03.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-03-p-500.jpg 500w, /assets/img/galerie-03-p-800.jpg 800w, /assets/img/galerie-03.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-3","origFileName":"galerie-03.jpg","fileName":"galerie-03.jpg","fileSize":109023,"height":1080,"width":1080,"url":"/assets/img/galerie-03.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-05.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-05-p-500.jpg 500w, /assets/img/galerie-05-p-800.jpg 800w, /assets/img/galerie-05.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-4","origFileName":"galerie-05.jpg","fileName":"galerie-05.jpg","fileSize":219749,"height":1080,"width":1080,"url":"/assets/img/galerie-05.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-04.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-04-p-500.jpg 500w, /assets/img/galerie-04-p-800.jpg 800w, /assets/img/galerie-04.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-5","origFileName":"galerie-04.jpg","fileName":"galerie-04.jpg","fileSize":279173,"height":1080,"width":1080,"url":"/assets/img/galerie-04.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-06.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-06-p-500.jpg 500w, /assets/img/galerie-06-p-800.jpg 800w, /assets/img/galerie-06.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-6","origFileName":"galerie-06.jpg","fileName":"galerie-06.jpg","fileSize":195303,"height":1080,"width":1080,"url":"/assets/img/galerie-06.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-09.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-09-p-500.jpg 500w, /assets/img/galerie-09-p-800.jpg 800w, /assets/img/galerie-09.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-7","origFileName":"galerie-09.jpg","fileName":"galerie-09.jpg","fileSize":104529,"height":1080,"width":1080,"url":"/assets/img/galerie-09.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-11.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-11-p-500.jpg 500w, /assets/img/galerie-11-p-800.jpg 800w, /assets/img/galerie-11.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-8","origFileName":"galerie-11.jpg","fileName":"galerie-11.jpg","fileSize":218854,"height":1080,"width":1080,"url":"/assets/img/galerie-11.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-12.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-12-p-500.jpg 500w, /assets/img/galerie-12-p-800.jpg 800w, /assets/img/galerie-12.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-9","origFileName":"galerie-12.jpg","fileName":"galerie-12.jpg","fileSize":266734,"height":1080,"width":1080,"url":"/assets/img/galerie-12.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-08.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-08-p-500.jpg 500w, /assets/img/galerie-08-p-800.jpg 800w, /assets/img/galerie-08.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-10","origFileName":"galerie-08.jpg","fileName":"galerie-08.jpg","fileSize":130778,"height":1080,"width":1080,"url":"/assets/img/galerie-08.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-13.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-13-p-500.jpg 500w, /assets/img/galerie-13-p-800.jpg 800w, /assets/img/galerie-13.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-11","origFileName":"galerie-13.jpg","fileName":"galerie-13.jpg","fileSize":202963,"height":1080,"width":1080,"url":"/assets/img/galerie-13.jpg","type":"image"}],"group":"Galerie"}</script></a><a href="#" class="lightbox-link1 w-inline-block w-lightbox"><img src="/assets/img/galerie-webseite.jpg" loading="lazy" sizes="100vw" srcset="/assets/img/galerie-webseite-p-500.jpg 500w, /assets/img/galerie-webseite-p-800.jpg 800w, /assets/img/galerie-webseite.jpg 1080w" alt="SPEED Gebäudereinigung" class="image1"/>
+<script type="application/json" class="w-json">{"items":[{"_id":"galerie-12","origFileName":"galerie-webseite.jpg","fileName":"galerie-webseite.jpg","fileSize":233020,"height":1080,"width":1080,"url":"/assets/img/galerie-webseite.jpg","type":"image"}],"group":"Galerie"}</script></a>
 </div>
 </div>
 <?php require __DIR__ . '/includes/footer.php'; ?>

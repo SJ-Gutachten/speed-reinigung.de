@@ -21,7 +21,9 @@ includes/
   funktionen.php                             Hilfsfunktionen (Ausgabe, aktive Navigation, Formular-Token)
   config.php                                 Einstellungen (E-Mail-Empfänger, Spamschutz)
 assets/
-  css/speed-reinigung.css                    gesamtes Styling (aus Webflow übernommen)
+  css/speed-reinigung.css                    gesamtes Styling (aus Webflow übernommen, Ergänzungen am Dateiende)
+  css/schriften.css                          lokal eingebundene Schriften (@font-face)
+  fonts/                                     Schriftdateien (früher von Google Fonts geladen)
   js/                                        jQuery, webflow.js (Menü, Animationen), kontaktformular.js
   img/                                       alle Bilder
 storage/                                     Laufzeitdaten des Formulars (nicht im Repository, per .htaccess gesperrt)

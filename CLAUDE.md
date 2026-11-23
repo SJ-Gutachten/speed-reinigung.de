@@ -28,6 +28,8 @@ Aus Webflow übernommen; Struktur und Ablauf stehen in `README.md`, der Ausgangs
 - Dateinamen: Kleinbuchstaben, Bindestriche, keine Umlaute. Bilder nach `assets/img`,
   Varianten in anderer Breite mit Endung `-p-500`, `-p-800`, `-p-1080`.
 - Styling steht in `assets/css/speed-reinigung.css` (Webflow-Klassennamen). Neue Regeln ans Dateiende.
+- Schriften sind lokal eingebunden (`assets/css/schriften.css`, Dateien in `assets/fonts`). Keine Schriften von Google oder anderen Servern nachladen.
+- Jede Seite hat genau eine `<h1>`. Wird eine Überschrift auf eine andere Ebene gesetzt, mit `wie-h1`/`wie-h2`/`wie-h3` das bisherige Aussehen erhalten.
 
 ## Stolpersteine
 

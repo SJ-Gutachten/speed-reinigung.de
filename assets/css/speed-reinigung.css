@@ -2779,7 +2779,7 @@ p {
 
 .content_house.image_background {
   color: #fff;
-  background-image: url("/assets/img/illustration5.avif"), linear-gradient(#000000b0, #000000b0), url("/assets/img/speed-reinigung-munchen.jpg");
+  background-image: url("/assets/img/illustration5.avif"), linear-gradient(#000000b0, #000000b0), url("/assets/img/speed-reinigung-munchen.webp");
   background-position: 50% 0, 0 0, 50%;
   background-size: cover, auto, cover;
   padding: 40% 60px 60px;
@@ -3373,7 +3373,7 @@ p {
   }
 
   .content_house.image_background {
-    background-image: linear-gradient(#000000b0, #000000b0), url("/assets/img/speed-reinigung-munchen.jpg");
+    background-image: linear-gradient(#000000b0, #000000b0), url("/assets/img/speed-reinigung-munchen.webp");
     background-position: 0 0, 50%;
     background-size: auto, cover;
     padding-top: 100px;
@@ -4279,3 +4279,27 @@ p {
     grid-row: span 6 / span 6;
   }
 }
+
+/* ===== Ergänzungen nach dem Umzug (November 2026) ===== */
+
+/* Überschriften-Ebene geändert, Aussehen wie zuvor:
+   .wie-h1/.wie-h2/.wie-h3 geben einem Element die Standardmaße der früheren Ebene
+   (gleiche Werte und Umbruchpunkte wie die h1/h2/h3-Regeln weiter oben). */
+div:where(.wie-h1) { margin-top: 20px; margin-bottom: 10px; font-size: 38px; font-weight: bold; line-height: 44px; }
+h1:where(.wie-h2) { margin-top: 20px; margin-bottom: 10px; font-size: 32px; font-weight: bold; line-height: 36px; }
+h1:where(.wie-h3) { margin-top: 20px; margin-bottom: 10px; font-size: 24px; font-weight: bold; line-height: 30px; }
+
+@media screen and (max-width: 767px) {
+  div:where(.wie-h1) { font-size: 30px; line-height: 35px; }
+  h1:where(.wie-h2) { font-size: 25px; line-height: 30px; }
+  h1:where(.wie-h3) { font-size: 20px; line-height: 25px; }
+}
+
+@media screen and (max-width: 479px) {
+  div:where(.wie-h1) { font-size: 22px; line-height: 25px; }
+  h1:where(.wie-h2) { font-size: 20px; line-height: 22px; }
+  h1:where(.wie-h3) { font-size: 17px; line-height: 20px; }
+}
+
+/* Logo-Link im Seitenkopf: verändert weder Anordnung noch Farbe. */
+.logo-link { display: contents; color: inherit; }
