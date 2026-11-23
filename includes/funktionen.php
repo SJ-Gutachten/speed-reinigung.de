@@ -10,6 +10,17 @@ function e(string $text): string
 }
 
 /**
+ * Adresse einer eigenen CSS- oder JS-Datei mit Versionsangabe (Änderungszeit der Datei).
+ * Browser speichern diese Dateien eine Woche; durch die Version laden sie geänderte Dateien sofort neu.
+ */
+function asset(string $pfad): string
+{
+    $datei = dirname(__DIR__) . $pfad;
+
+    return $pfad . (is_file($datei) ? '?v=' . filemtime($datei) : '');
+}
+
+/**
  * Attribute für interne Links in Header und Footer.
  * Markiert den Link der aktuellen Seite so, wie Webflow es getan hat
  * (aria-current="page" und Klasse w--current).

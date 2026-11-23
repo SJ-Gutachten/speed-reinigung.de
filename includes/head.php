@@ -19,8 +19,8 @@ $basis = 'https://speed-reinigung.de';
 <meta name="twitter:image" content="<?= $basis ?>/assets/img/speed-reinigung-munchen.jpg"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="Webflow" name="generator"/>
-<link href="/assets/css/speed-reinigung.css" rel="stylesheet" type="text/css"/>
-<link href="/assets/css/schriften.css" rel="stylesheet" type="text/css"/>
+<link href="<?= e(asset('/assets/css/speed-reinigung.css')) ?>" rel="stylesheet" type="text/css"/>
+<link href="<?= e(asset('/assets/css/schriften.css')) ?>" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
 <link href="/assets/img/speed-logo-32x32.png" rel="shortcut icon" type="image/x-icon"/>
 <link href="/assets/img/speed-logo-256x256.png" rel="apple-touch-icon"/><!-- Meta Viewport für Mobile + Barrierefreiheit -->
@@ -46,6 +46,6 @@ $basis = 'https://speed-reinigung.de';
 
 <!-- Statistik und Marketing: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
 <script>window.EINWILLIGUNG = { gtm: 'GTM-N2C3F57M', dienste: 'den Google Tag Manager und darüber eingebundene Dienste wie das Facebook-Pixel (Meta)' };</script>
-<script src="/assets/js/einwilligung.js" defer></script>
+<script src="<?= e(asset('/assets/js/einwilligung.js')) ?>" defer></script>
 <?= $page['head_extra'] ?? '' ?>
 </head>

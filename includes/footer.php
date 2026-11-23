@@ -49,5 +49,5 @@
     });
   });
 </script>
-<?php foreach ($page['scripts'] ?? [] as $src): ?><script src="<?= e($src) ?>" defer></script>
+<?php foreach ($page['scripts'] ?? [] as $src): ?><script src="<?= e(asset($src)) ?>" defer></script>
 <?php endforeach; ?></body></html>

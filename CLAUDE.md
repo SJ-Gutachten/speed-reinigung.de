@@ -25,6 +25,7 @@ Aus Webflow übernommen; Struktur und Ablauf stehen in `README.md`, der Ausgangs
 - Interne Links ohne Endung und ohne Schrägstrich am Ende (`/kontakt`), Assets mit absolutem Pfad (`/assets/...`).
 - Links in Header und Footer über `nav_attrs()` ausgeben, damit die aktive Seite markiert wird.
 - Variable Ausgaben in PHP immer mit `e()` maskieren.
+- Eigene CSS- und JS-Dateien über `asset('/assets/...')` einbinden. Das hängt eine Versionsnummer an, damit Besucher geänderte Dateien sofort erhalten (der Browser-Cache hält sie sonst eine Woche).
 - Dateinamen: Kleinbuchstaben, Bindestriche, keine Umlaute. Bilder nach `assets/img`,
   Varianten in anderer Breite mit Endung `-p-500`, `-p-800`, `-p-1080`.
 - Styling steht in `assets/css/speed-reinigung.css` (Webflow-Klassennamen). Neue Regeln ans Dateiende.
