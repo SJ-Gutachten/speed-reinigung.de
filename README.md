@@ -81,4 +81,14 @@ Testanfragen landen dann in `storage/testmail.txt`.
 - CSS, JavaScript und Bilder liegen lokal statt auf dem Webflow-CDN; die Dateien haben sprechende Namen.
 - `/index.html` und Adressen mit `.html` oder `.php` leiten auf die Adresse ohne Endung weiter.
 
-Alles Weitere – Texte, Impressum, Datenschutz, Tracking- und Cookie-Code, Schriften, Animationen – ist unverändert.
+## Verbesserungen nach dem Umzug (November 2026)
+
+- **Schriften lokal:** Die im CSS verwendeten Schriften liegen unter `assets/fonts`; Google Fonts und `webfont.js` werden nicht mehr geladen.
+- **Bilder:** Karte und Hintergrundfoto als WebP, fehlende Bildmaße (`width`/`height`) ergänzt.
+- **Galerie:** Die Lightbox öffnet jetzt die Bilder (die Bildlisten waren leer).
+- **Suchmaschinen:** `lang="de"`, Canonical-Tag und Vorschaubild auf allen Seiten; genau eine `<h1>` je Seite; korrekte Firmendaten in den strukturierten Daten auf `/kontakt`; `/success` aus der Sitemap genommen und auf „nicht indexieren“ gesetzt.
+- **Korrekturen:** Karten-Link auf `/kontakt`, Tippfehler auf der Startseite, versteckter doppelter Textblock entfernt, Logo führt zur Startseite, Alt-Texte für Logo und Karte.
+
+Überschriften, deren Ebene geändert wurde, tragen die Klasse `wie-h1`, `wie-h2` oder `wie-h3`, damit sie aussehen wie zuvor.
+
+Unverändert sind Impressum, Datenschutzerklärung sowie Tracking- und Cookie-Code (Google Tag Manager, consentmanager).
