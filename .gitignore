@@ -1,0 +1,13 @@
+# Server-spezifische Einstellungen und Laufzeitdaten
+/config.local.php
+/storage/*
+!/storage/.htaccess
+
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Lokale Werkzeuge
+.claude/

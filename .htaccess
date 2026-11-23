@@ -1,0 +1,76 @@
+# speed-reinigung.de – Apache/LiteSpeed-Konfiguration (Hostinger)
+
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# --- Schutz: interne Dateien nie ausliefern --------------------------------
+RewriteRule ^(includes|storage|tools|\.git)(/|$) - [F,L]
+RewriteRule (^|/)\.(?!well-known/) - [F,L]
+RewriteRule \.(md|example|log|key)$ - [F,L,NC]
+RewriteRule ^config\.local\.php$ - [F,L]
+
+# --- Kanonische Adresse: https://speed-reinigung.de (ohne www) -------------
+# Gilt nur für die echte Domain, damit die temporäre Hostinger-Adresse funktioniert.
+RewriteCond %{HTTP_HOST} ^www\.speed-reinigung\.de$ [NC]
+RewriteRule ^ https://speed-reinigung.de%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^speed-reinigung\.de$ [NC]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^ https://speed-reinigung.de%{REQUEST_URI} [R=301,L]
+
+# --- URLs wie bei Webflow: ohne Endung, ohne Schrägstrich am Ende ----------
+# /kontakt.php, /kontakt.html und /index -> /kontakt bzw. /
+RewriteCond %{THE_REQUEST} \s/+index(\.php|\.html)?[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+([^\s?]+?)\.(php|html)[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/kontakt-senden\.php$
+RewriteCond %{DOCUMENT_ROOT}/%1.php -f
+RewriteRule ^ /%1 [R=301,L]
+
+# /kontakt/ -> /kontakt
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# /kontakt intern auf kontakt.php abbilden
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^([A-Za-z0-9_-]+)$ $1.php [L]
+</IfModule>
+
+# --- Sicherheit ------------------------------------------------------------
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
+</IfModule>
+
+# --- Geschwindigkeit: Komprimierung und Browser-Cache ----------------------
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json image/svg+xml text/xml application/xml text/plain
+</IfModule>
+
+<IfModule mod_mime.c>
+AddType image/avif .avif
+AddType image/webp .webp
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 hour"
+ExpiresByType text/html "access plus 0 seconds"
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType text/javascript "access plus 7 days"
+ExpiresByType image/avif "access plus 30 days"
+ExpiresByType image/jpeg "access plus 30 days"
+ExpiresByType image/png "access plus 30 days"
+ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
