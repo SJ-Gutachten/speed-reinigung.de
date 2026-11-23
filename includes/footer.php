@@ -21,7 +21,7 @@
 <div class="relative"><img width="0" height="0" src="/assets/img/icon-email.avif" loading="lazy" alt="" class="icon small"/>
 </div>
 <h4 class="heading1 heading-2">Sonstiges</h4>
-<p class="paragraph_links flie-text klein"><a <?= nav_attrs('/impressum', 'impressum flie-text') ?>>Impressum<br/></a><a <?= nav_attrs('/datenschutz', 'datenschutz flie-text') ?>>Datenschutz</a></p>
+<p class="paragraph_links flie-text klein"><a <?= nav_attrs('/impressum', 'impressum flie-text') ?>>Impressum<br/></a><a <?= nav_attrs('/datenschutz', 'datenschutz flie-text') ?>>Datenschutz</a><br/><a href="/datenschutz#cookie-einstellungen" class="datenschutz flie-text" data-einwilligung-oeffnen>Cookie-Einstellungen</a></p>
 </div>
 <div id="w-node-_94df2824-8f87-4dd7-29a1-880b360c01c6-365eff63" class="content_block oben"><a href="https://maps.app.goo.gl/o6hiAG5ged6Q4JpJ6" target="_blank" class="w-inline-block"><img src="/assets/img/karte-standort.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 648px" srcset="/assets/img/karte-standort-p-500.webp 500w, /assets/img/karte-standort-p-800.webp 800w, /assets/img/karte-standort-p-1080.webp 1080w, /assets/img/karte-standort.webp 1350w" alt="Karte mit dem Standort Zietenstraße 8, 80807 München" class="image"/></a>
 </div>

@@ -44,22 +44,8 @@ $basis = 'https://speed-reinigung.de';
   }
 </style>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N2C3F57M');</script>
-<!-- End Google Tag Manager -->
-
-<!-- ConsentManager Script (verzögert für bessere Performance) -->
-<script>
-  window.addEventListener("DOMContentLoaded", function () {
-    var cmpScript = document.createElement("script");
-    cmpScript.src = "https://cdn.consentmanager.net/delivery/cmp_en.min.js";
-    cmpScript.async = true;
-    document.body.appendChild(cmpScript);
-  });
-</script>
+<!-- Statistik und Marketing: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
+<script>window.EINWILLIGUNG = { gtm: 'GTM-N2C3F57M', dienste: 'den Google Tag Manager und darüber eingebundene Dienste wie das Facebook-Pixel (Meta)' };</script>
+<script src="/assets/js/einwilligung.js" defer></script>
 <?= $page['head_extra'] ?? '' ?>
 </head>

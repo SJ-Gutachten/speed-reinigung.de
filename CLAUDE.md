@@ -6,7 +6,7 @@ Aus Webflow übernommen; Struktur und Ablauf stehen in `README.md`, der Ausgangs
 ## Nicht ohne ausdrücklichen Auftrag ändern
 
 - `impressum.php` und `datenschutz.php` (Rechtstexte), auch keine „harmlosen“ Tippfehler.
-- Tracking- und Einwilligungs-Code in `includes/head.php` (Google Tag Manager, consentmanager).
+- Tracking und Einwilligung: Dienste, die Cookies setzen oder Daten an Dritte senden, nie direkt einbinden, sondern nur über `assets/js/einwilligung.js` (Kennungen in `includes/head.php`). Texte des Hinweises nur nach Absprache ändern.
 - Texte und Design der Seiten. Auffälligkeiten aus `ANALYSE.md` werden nur auf Wunsch behoben.
 - DNS, insbesondere die E-Mail-Einträge (MX, SPF, DKIM, DMARC).
 
